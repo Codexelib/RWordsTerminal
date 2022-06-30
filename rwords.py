@@ -11,6 +11,9 @@ class bcolors:
     RED = '\u001b[31m'
     ACIKMAVI = '\u001b[32;1m'
 
+# Temizleme
+os.system('clear')
+
 # Menu
 print(bcolors.ACIKMAVI + """
 
