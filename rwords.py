@@ -82,8 +82,11 @@ while True:
 	# Kelime Ekle 
 	elif menuSecim == '2':
 		while True:
+			os.system('sudo setxkbmap eu')
 			yeniKelime = input('Yeni Kelime : ')
+			os.system('sudo setxkbmap tr')
 			yeniAnlam = input('Yeni Anlam : ')
+			os.system('sudo setxkbmap eu')
 			kelimeDosya.write(yeniKelime + '\n')
 			anlamDosya.write(yeniAnlam + '\n')
 			cikisOnay = input(bcolors.ACIKMAVI + '\nCikmak icin C ye basiniz . \n' + bcolors.ENDC)
