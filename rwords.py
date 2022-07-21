@@ -95,6 +95,7 @@ while True:
 
 	# Bilgi
 	elif menuSecim == 'B':
+		print(len(kelimeler) + ' kelime')
 		print(RWords_surum)
 
 	# Cikis
